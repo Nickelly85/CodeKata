@@ -2,8 +2,6 @@ public class Main {
 	public static void main(String[] args) {
 		int numPlayers = 23;
 		int numIterations = 1000;
-		int results = 0;
-		float avg = 0;
 
 		int[] roundResults = runIterations(numPlayers, numIterations);
 		printResults(roundResults);
