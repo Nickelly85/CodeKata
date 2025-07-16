@@ -25,6 +25,6 @@ public class Player {
 
 	public void takeAction() {
 		Action action = chosenCup.revealAction();
-		game.takeAction(this, action);
+		game.performAction(this, action);
 	}
 }

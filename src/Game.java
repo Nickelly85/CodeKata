@@ -43,7 +43,7 @@ public class Game {
 		return null;
 	}
 
-	public void takeAction(Player currentPlayer, Action action) {
+	public void performAction(Player currentPlayer, Action action) {
 		switch(action) {
 			case TAKEONE -> takeOne(currentPlayer);
 			case TRADE -> trade(currentPlayer);
