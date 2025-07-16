@@ -1,0 +1,7 @@
+public enum Action {
+	TAKEONE,
+	TRADE,
+	SHIFTLEFT,
+	SHIFTRIGHT,
+	STEAL
+}

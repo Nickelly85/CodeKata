@@ -1,14 +1,9 @@
 import java.util.Random;
 
 public class Cup {
-	int value;
-
-	Cup() {
-		this.value = 0;
-	}
-
-	public int revealAction() {
+	public Action revealAction() {
 		Random rand = new Random();
-		return value = rand.nextInt(5) + 1;
+		Action[] actions = Action.values();
+		return actions[rand.nextInt(actions.length)];
 	}
 }
