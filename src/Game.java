@@ -1,9 +1,9 @@
 public class Game {
-	int numPlayers;
-	int roundCounter;
-	boolean gameOver;
-	Player[] players;
-	int numGiftsOnTable;
+	final private int numPlayers;
+	private int roundCounter;
+	private boolean gameOver;
+	final private Player[] players;
+	private int numGiftsOnTable;
 
 	Game(int numPlayers) {
 		this.numPlayers = numPlayers;
